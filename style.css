@@ -1,0 +1,254 @@
+.toggle-switch {
+	display: block;
+	vertical-align: middle;
+    
+}
+
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	height: 300px; /* Change to desired height */
+	background-color: #f2f2f2; /* Change to desired background color */
+  }
+  
+ h1{
+	color: #000;
+ } 
+  .container {
+	background-color: #f2f2f2; /* Set background color to white */
+  }
+  
+  .container img {
+	display: block; /* Ensure the image is a block element */
+	max-width: 100%; /* Ensure the image doesn't overflow the container */
+  }
+  .container img {
+	width: 50%; /* Change to desired width */
+	height: auto; /* Keep aspect ratio */
+  }
+  
+
+/* Light mode */
+body {
+	background-color: #f2f2f2; /* light mode background color */
+    color: #000; /* light mode text color */
+
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	
+	padding: 20px;
+	
+  }
+
+header {
+	
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+	background-color: #fff;
+	border-bottom: 1px solid grey;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.logo {
+	float: left; /* This will float the logo to the left */
+	margin-right: center; /* This will add some margin to the right of the logo to create some space between the logo and the title */
+  }
+
+.logo img {
+
+	height: auto;
+	width: 300px; /* Change this value to adjust the width of the logo */
+  }
+
+  
+
+  .title {
+	text-align: center;
+	margin: 0 auto; 
+  }
+
+  
+
+  footer {
+	background-color: #333;
+	color: #fff;
+	padding: 50px 0;
+  }
+  
+
+  .container6 {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 20px;
+  }
+  
+  .row {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+  }
+  
+  .col {
+	width: 50%;
+  }
+  
+  .col p {
+	font-size: 14px;
+	margin: 0;
+  }
+  
+  .footer-links {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+  }
+  
+  .footer-links li {
+	margin-bottom: 10px;
+  }
+  
+  .footer-links a {
+	color: #fff;
+	text-decoration: none;
+	transition: all 0.3s ease;
+  }
+  
+  .footer-links a:hover {
+	color: #F9D423;
+  }
+  
+
+.toggle-switch-text {
+	font-weight: bold;
+	color: red;
+    padding: auto;
+
+}
+
+/* Dark mode */
+body.dark-mode {
+	background-color: #333;
+	color: #fff;
+}
+
+header.dark-mode {
+	background-color: #111;
+	border-bottom: 1px solid #444;
+    color: #111;
+}
+
+footer.dark-mode {
+	background-color: #111;
+	border-top: 1px solid #444;
+    color: #111;
+}
+
+.toggle-switch-text.dark-mode {
+	color: #fff;
+}
+
+/* Toggle switch styles */
+.toggle-switch-checkbox {
+	display: none;
+}
+
+.toggle-switch-label {
+	display: inline-block;
+	position: relative;
+	width: 60px;
+	height: 30px;
+	cursor: pointer;
+}
+
+.toggle-switch-inner {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	transition: background-color 0.5s ease;
+	background-color: #ccc;
+	border-radius: 30px;
+}
+
+.toggle-switch-switch {
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	width: 26px;
+	height: 26px;
+	transition: transform 0.5s ease;
+	background-color: #fff;
+	border-radius: 50%;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.toggle-switch-checkbox:checked + .toggle-switch-label .toggle-switch-inner {
+	background-color: #2196f3;
+}
+
+.toggle-switch-checkbox:checked + .toggle-switch-label .toggle-switch-switch {
+	transform: translateX(30px);
+}
+
+
+
+/* General styles */
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	transition: background-color 0.5s ease;
+}
+
+header, footer {
+	max-width: auto;
+	margin: 0 auto;
+	padding: 20px;
+
+}
+
+main {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+
+}
+
+header{
+    text-align: center;
+    color: white;
+	background-color: lightblue;
+}
+
+footer{
+    color: white;
+}
+
+ 
+  
+
+p {
+	
+	margin-bottom: 20px;
+}
+
+
+/*Text Only Mode*/
+body.text-only-mode img {
+	display: none;
+	
+}
+
+
+
+/* Battery saver mode styles */
+body.battery-optimized-mode img {
+    display: none;
+}
