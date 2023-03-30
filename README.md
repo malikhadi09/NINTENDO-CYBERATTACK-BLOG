@@ -9,7 +9,6 @@
 # What to make..
 
 # Instructions
-# ____________
 
 1. Visit the webpage: https://www.cyberdefensemagazine.com/top-100-cybersecurity-breaches/
 2. It lists top 100 cyber attacks ever. Pick an incident of your choice and post it on google sheet (link below) to book that topic: 
@@ -19,7 +18,6 @@
 
 
 # Requirements (3mks, 3mks, 4mks)
-# _______________________________
 
 1. Test the webpage on:
       i. laptop and desktop PC (in IT lab),
@@ -31,41 +29,26 @@
 3. Compare the loading times on two different servers as chosen earlier. Use chrome dev tools to benchmark performance / delays
 
 # OUTPUTS:
-# ________
 
 # lightmode:
-# __________
-
 ![image](https://user-images.githubusercontent.com/92660593/228771707-1e23d881-18ef-4609-b232-f82c698416ec.png)
 
 # Darkmode:
-# _________
-
 ![image](https://user-images.githubusercontent.com/92660593/228771812-927bb180-6b80-4c73-bac8-72d67fa1ef5b.png)
 
 # Textmode:
-# _________
-
 ![image](https://user-images.githubusercontent.com/92660593/228771885-c0d07d15-383b-42a9-8b98-3096d246c81c.png)
 
 # Batteryoptimization Mode:
-# _________________________
-
 ![image](https://user-images.githubusercontent.com/92660593/228771946-dead802d-cdd9-4ad5-9c7b-ddffd85039e4.png)
 
 # Performance Measurement using Apache:
-# _____________________________________
-
 ![image](https://user-images.githubusercontent.com/92660593/228772017-f0e244d4-2e1e-4d83-91e1-325533b57f79.png)
 
 # Performance Measurement using Xampp:
-# ____________________________________
-
 ![image](https://user-images.githubusercontent.com/92660593/228772098-856d59d1-a2ca-4593-b223-6f41dc5fdf53.png)
 
 
 # COMPARING APACHE AND XAAMP PERFORMANCE:
-# _______________________________________
-
 We have demonstrated that Apache outperformed Xampp in terms of web performance. Through rigorous testing and analysis, we have shown that Apache provides a faster and more reliable web server solution than Xampp. Therefore, we recommend using Apache for web development and hosting projects that require optimal web performance.
 
